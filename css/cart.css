@@ -1,0 +1,160 @@
+
+/* cart */
+#cartsidebardiv{
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	top: 0%;
+	background-color: rgba(0,0,0,.15);
+	z-index:1000000;
+	display: none;
+
+}
+.cart-sidebar{
+	right:-25%;
+	width:25%;
+	top:0%;
+	height:100%;
+	background:#FFF1E3;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	color: #000;
+	position: absolute;
+	transition: .5s linear;
+}
+
+.single-product-box{
+	width: 90%;
+	height: 120px;
+	overflow: hidden;
+	display: flex;
+	margin: 2% auto;
+	position: relative;
+}
+.single-product-half1{
+	width: 30%;
+	margin: 0 2%;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+}
+.single-product-half2{
+	width: 70%;
+	position: relative;
+	font-size: 1.15em;
+
+}
+.single-product-half2 p {
+	color: #74815B;
+	font-weight: 700;
+	font-size: 1.15em;
+}
+.cart-sidebar-header{
+	width: 100%;
+	height: 10%;
+	position: relative;
+	background-color:#74815B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cart-sidebar-header p{
+ color: #fff;
+ font-size: 2em;
+ user-select: none;
+}
+.cart-sidebar-header div{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	font-size:2em;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+}
+.cart-sidebar-products{
+	width: 100%;
+	height: 60%;
+	position: relative;
+	overflow-y: scroll;
+}
+.cart-sidebar-footer{
+	width: 100%;
+	height: 30%;
+	position: relative;
+}
+
+.subtotal-cart{
+	font-size: 2.25em !important;
+	color: #74815B;
+	position: relative;
+	left: 5%;
+}
+.quy-stock{
+	display: none;
+}
+
+.quantity-sp-o{
+	position: relative;
+	display: flex;
+	width: 95px;
+	border: 1px solid #000;
+	height: 30px;
+	background-color: #fff;
+	overflow: hidden;
+	top: -5px;
+}
+
+.input-cart-quy{
+	width: 35px;
+	text-align: center;
+	color: #000;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+.buttonquy{
+	color: #000;
+	 width: 30px !important;
+	 height: 100% !important;
+	 padding: 0;
+	 box-shadow: none !important;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 margin: 0;
+	 top: 2.5px;
+	 background-color: #fff;
+	 cursor: pointer;
+	 position: relative;
+}
+.plus{
+	top: 3.5px;
+}
+.buttonquy:hover{
+	background-color: none !important;
+}
+
+.checkout-btc{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	height: 40px;
+	background-color: #74815B;
+	color: white;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5%;
+}
+
+.checkout-btc a{
+	color: white;
+}
+.checkout-btc a:hover{
+	color: white !important;
+	opacity: 1 !important;
+}
